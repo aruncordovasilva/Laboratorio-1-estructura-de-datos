@@ -24,3 +24,9 @@ exercises.c:58:12: error: assignment to ‘int’ from ‘int *’ makes integer
    58 |       cont += elemento;
       |            ^~
 2e4636f
+Thu Mar 19 07:11:41 PM UTC 2026: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|4
+total_score: 10/70
+579bf0d
