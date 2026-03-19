@@ -40,3 +40,9 @@ exercises.c:80:12: error: assignment to ‘int’ from ‘void *’ makes intege
    80 |       *num = next(L);
       |            ^
 bc27d43
+Thu Mar 19 07:21:09 PM UTC 2026: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+ tests:  2|3
+total_score: 30/70
+20d8809
