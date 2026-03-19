@@ -46,3 +46,30 @@ Thu Mar 19 07:21:09 PM UTC 2026:
  tests:  2|3
 total_score: 30/70
 20d8809
+Thu Mar 19 07:35:00 PM UTC 2026: 
+ exercises.c | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:91:4: error: ‘new_stack’ undeclared (first use in this function)
+   91 |    new_stack = create_stack();
+      |    ^~~~~~~~~
+exercises.c:91:4: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:92:16: error: implicit declaration of function ‘Top’; did you mean ‘top’? [-Wimplicit-function-declaration]
+   92 |    int * num = Top(P1);
+      |                ^~~
+      |                top
+exercises.c:92:16: error: initialization of ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+exercises.c:94:7: error: implicit declaration of function ‘Push’; did you mean ‘push’? [-Wimplicit-function-declaration]
+   94 |       Push(new_stack, num);
+      |       ^~~~
+      |       push
+exercises.c:95:7: error: implicit declaration of function ‘Pop’; did you mean ‘pop’? [-Wimplicit-function-declaration]
+   95 |       Pop(P1);
+      |       ^~~
+      |       pop
+exercises.c:96:11: error: assignment to ‘int *’ from ‘int’ makes pointer from integer without a cast [-Wint-conversion]
+   96 |       num = Top(P1);
+      |           ^
+535c005
